@@ -1,0 +1,9 @@
+- name: Verify the test file was prepared
+  hosts: all
+  tasks:
+    - name: Create a simple test file
+      copy:
+        dest: /tmp/prepared
+        content: pass
+        mode: preserve
+

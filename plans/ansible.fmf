@@ -13,7 +13,7 @@ prepare:
   - name: Ansible we want to test
     order: 85
     how: ansible
-    playbook: https://pastebin.com/raw/DKkXJavi
+    playbook: /playbooks/playbook.yml
     extra-args: '-vvv -e ansible_remote_tmp=/tmp'
 
   - name: State after is as expected (file created)
