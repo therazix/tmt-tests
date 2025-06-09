@@ -1,0 +1,4 @@
+ref: main
+adjust:
+ - when: example_var is defined
+   ref: $@example_var
