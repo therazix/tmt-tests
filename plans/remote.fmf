@@ -1,0 +1,13 @@
+summary: Remote plan
+discover:
+    how: fmf
+    url: https://github.com/therazix/tmt-tests
+    ref: $@example_var
+provision:
+    how: local
+execute:
+    how: tmt
+enabled: true
+adjust:
+    when: example_var == temp
+    enabled: false
