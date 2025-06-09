@@ -1,0 +1,17 @@
+summary: Remote plan
+discover:
+    how: fmf
+provision:
+    how: local
+execute:
+    how: tmt
+context:
+    foo: bar
+    some-var: value
+environment:
+    REMOTE_VAR: Remote plan variable
+    OVERRIDEN_VAR: Not yet overriden
+enabled: true
+adjust:
+    enabled: false
+    when: foo == bar and abc == def
