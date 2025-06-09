@@ -1,0 +1,4 @@
+ref: main
+adjust:
+  - when: foo == LOCAL_VAR
+    ref: $@foo

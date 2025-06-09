@@ -1,0 +1,5 @@
+summary: TEMP First test
+test: |
+  echo "TEMP First test executed"
+  echo "LOCAL_VAR: $LOCAL_VAR"
+  echo "REMOTE_VAR: $REMOTE_VAR"
