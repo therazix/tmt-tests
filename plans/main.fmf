@@ -1,2 +1,3 @@
+summary: Some summary
 provision:
     how: local
