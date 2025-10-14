@@ -1,0 +1,9 @@
+summary: Remote plan
+discover:
+    how: fmf
+    url: https://github.com/therazix/tmt-tests
+provision:
+    how: local
+execute:
+    how: tmt
+enabled: true
